@@ -16,7 +16,7 @@ cap=cv2.VideoCapture(0)   # Capture video from default Camera ,while cv.VideoCap
 cap.set(3,640)            # Set Video Width = 640 pixels
 cap.set(4,480)            # Set Video Height = 480 pixels 
 
-#Initializing the face detector and landmark detector
+#Initializing the face detector and landmark Predictor
 #  detector: Detects faces using Dlib's pre-trained frontal face detector.
 #  predictor: Loads the 68-point facial landmark model (shape_predictor_68_face_landmarks.dat)
 detector = dlib.get_frontal_face_detector()
